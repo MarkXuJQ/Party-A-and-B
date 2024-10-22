@@ -21,6 +21,13 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    isVerified: {
+      type: Boolean,
+      default: false
+    },  // Add verification flag
+    verificationToken: {
+     type: String
+    },  // Token for email verification
     resetPasswordToken: {
       type: String,
       default: null,

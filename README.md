@@ -12,6 +12,8 @@ download [Node.js](https://nodejs.org/zh-cn)
 
 download [docker](https://docs.docker.com/desktop/install/windows-install/)
 
+download [MongoDB](https://www.mongodb.com/try/download/community-kubernetes-operator)
+
 ## 运行程序
 
 ```
@@ -28,11 +30,10 @@ docker compose up --build
 
 测试命令：[Instruction](testInstruction.md)
 
-download [MongoDB
-](https://www.mongodb.com/try/download/community-kubernetes-operator)
-
 ## 完成功能
 
 * [X] 注册功能
 * [X] 登陆功能（个人profile权限管理）
 * [X] 修改密码
+* [ ] 邮箱验证
+* [ ] 密码次数
